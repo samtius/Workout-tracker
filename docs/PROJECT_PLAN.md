@@ -81,3 +81,13 @@ Custom exercises will be stored in the database. The application should preserve
 Users will be able to create reusable workout templates with predefined exercises and planned sets.
 
 A training program will contain multiple workout templates. Users will be able to start a workout from a template and record their actual performance without changing the original template or previous workout history.
+
+### Exercise Attributes
+
+Each exercise will have:
+- A unique identifier.
+- A name.
+- One primary muscle group.
+- An indication of whether it is predefined or custom.
+
+Secondary muscle groups may be supported in a future version.
