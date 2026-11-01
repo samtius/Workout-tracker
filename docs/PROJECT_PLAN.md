@@ -61,6 +61,21 @@ Each workout will have a date and may contain multiple exercises. Each exercise 
 
 Completed workouts will be saved and accessible through workout history.
 
+### Exercise Management – MVP
+
+The application will provide a predefined library of common gym exercises.
+
+Users will be able to:
+- Browse and search predefined exercises.
+- Select exercises when creating a workout.
+- Create custom exercises.
+- Reuse previously created custom exercises.
+- Edit their custom exercises.
+
+Predefined exercises cannot be modified by regular users.
+
+Custom exercises will be stored in the database. The application should preserve workout history when exercises are edited or removed.
+
 ### Future Enhancement – Workout Programs
 
 Users will be able to create reusable workout templates with predefined exercises and planned sets.
